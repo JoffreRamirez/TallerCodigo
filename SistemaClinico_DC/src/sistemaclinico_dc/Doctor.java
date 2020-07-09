@@ -5,11 +5,28 @@
  */
 package sistemaclinico_dc;
 
+import java.util.Date;
+
 /**
  *
  * @author User
  */
-public class Doctor {
+public class Doctor extends Persona {
     protected int regDoctor;
+    protected String especialidad;
+    protected Secretaria secretaria;
+    
+    
+    
+    public void recetar(){
+        
+    }
+    public void agregarPlanNut(){
+        
+    }
+    public void registraSecretaria(Secretaria secretaria){
+        this.secretaria=secretaria;
+        
+    }
     
 }
