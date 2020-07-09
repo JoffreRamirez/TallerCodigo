@@ -10,5 +10,6 @@ package sistemaclinico_dc;
  * @author User
  */
 public class Doctor {
+    protected int regDoctor;
     
 }
